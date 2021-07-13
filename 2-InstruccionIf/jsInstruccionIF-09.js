@@ -5,6 +5,6 @@ function mostrar() {
 	let random;
 
 	random = Math.floor(Math.random() * (max - min + 1) + min);
-	alert(random)
+	alert(random);
 
 }//FIN DE LA FUNCIÓN

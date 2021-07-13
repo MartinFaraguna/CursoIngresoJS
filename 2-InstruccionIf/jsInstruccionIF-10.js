@@ -4,14 +4,14 @@ function mostrar() {
 	let random;
 
 	random = Math.floor(Math.random() * (max - min + 1) + min);
-	console.log(random)
+	console.log(random);
 
 	if (random < 4) {
-		alert("Vamos, la proxima se puede")
+		alert("Vamos, la proxima se puede");
 	} else if (random < 9) {
-		alert("APROBÓ")
+		alert("APROBÓ");
 	} else {
-		alert("EXCELENTE")
+		alert("EXCELENTE");
 	}
 
 }//FIN DE LA FUNCIÓN

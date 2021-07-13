@@ -13,11 +13,11 @@ function mostrar()
 	// }
 
 	if (edad < 13){
-		alert("Es un niño")
+		alert("Es un niño");
 	} else if (edad <= 17){
-		alert("Es adolescente")
+		alert("Es adolescente");
 	} else {
-		alert("Es mayor de edad")
+		alert("Es mayor de edad");
 	}
 
 }//FIN DE LA FUNCIÓN
