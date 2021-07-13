@@ -13,7 +13,7 @@ function mostrar() {
 
 	if (edad < 18 && !(Soltero)){
 
-	} else if (Soltero && edad >= 18){
+	} else if (estado === "Soltero" && edad >= 18){
 		alert("Es soltero y no es menor")
 	}
 
