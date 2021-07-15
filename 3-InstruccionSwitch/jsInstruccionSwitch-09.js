@@ -2,12 +2,60 @@ function mostrar() {
 	let precio = 15000;
 	let estacion;
 	let destino;
-	let preciofinal;
+	let precioFinal;
 
 	estacion = document.getElementById("txtIdEstacion").value;
 	destino = document.getElementById("txtIdDestino").value;
 
-	switch (estacion) {
+	switch (destino) {
+
+		case "Bariloche":
+			if (estacion == "Invierno") {
+				precioFinal = precio * 1.2;
+			} else if (estacion == "Verano") {
+				precioFinal = precio * .8;
+			} else {
+				precioFinal = precio * 1.1;
+			}
+			break;
+		case "Cataratas":
+			if (estacion == "Invierno") {
+				precioFinal = precio * .9;
+			} /*else if (estacion == "Verano") {
+				precioFinal = precio * 1.1;
+			}*/ else {
+				precioFinal = precio * 1.1;
+			}
+			break;
+		case "Mar del plata":
+			if (estacion == "Invierno") {
+				precioFinal = precio * .8;
+			} else if (estacion == "Verano") {
+				precioFinal = precio * 1.2;
+			} else {
+				precioFinal = precio * 1.1;
+			}
+			break;
+		case "Cordoba":
+			if (estacion == "Invierno") {
+				precioFinal = precio * .9;
+			} else if (estacion == "Verano") {
+				precioFinal = precio * 1.1;
+			} else {
+				precioFinal = precio;
+			}
+			break;
+
+	}
+
+	alert(`El precio final es ${precioFinal}`);
+
+
+
+
+
+
+	/*	switch (estacion) {
 		case "Invierno":
 			switch (destino) {
 				case "Bariloche":
@@ -51,7 +99,8 @@ function mostrar() {
 			break;
 	}
 
-	alert(`El precio final es ${preciofinal}`);
+	alert(`El precio final es ${preciofinal}`); */
+
 	/*switch (estacion) {
 		case "Invierno":
 			switch (destino) {
