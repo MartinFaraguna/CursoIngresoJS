@@ -1,3 +1,4 @@
+//primos: solamente divisibles por 1 y por si mismo.
 function mostrar()
 {
 
