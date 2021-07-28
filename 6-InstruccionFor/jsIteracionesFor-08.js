@@ -17,9 +17,9 @@ function mostrar() {
 	}
 
 	if (cant == 2){
-		console.log("El numero es primo");
+		console.log("El numero " + num + " es primo");
 	} else {
-		console.log("El numero no es primo");
+		console.log("El numero " + num + " no es primo");
 	}
 
 }//FIN DE LA FUNCIÓN
